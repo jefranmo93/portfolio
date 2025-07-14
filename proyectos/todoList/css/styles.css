@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+}
+
+.campo_texto{
+    width: 1200px;
+}
+
+/* Contenedor para ver las tareas completas o pendientes */
+
+.actual{
+    border: 1px solid black;
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+.saved{
+    background-color: white;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarea {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tarea input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+

@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(123, 186, 236);
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;           
+}
+
+.pagina {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(270deg, #f0f0f0, #d1d1d1, #e6e6e6, #b0b0b0);
+  background-size: 800% 800%;
+  animation: moverFondo 20s ease infinite;
+}
+
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#encabezado{
+  margin-bottom: 80px;
+}
+.top{
+    border-radius: 50px;
+    margin: 10px;
+    background-color:white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    li{
+		display: inline;
+	}
+}
+#navMenu ul{
+    font-size: 40px;
+    display: flex;
+    gap: 50px;
+}
+.personalInfo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.foto{
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+}
+.enlace{
+  text-decoration: none;
+  color: blue;
+}
+.enlace:hover{
+  color: green;
+}
+a:visited{
+  color: blue;
+}
+
+.bloque{
+    background-color:#f9f9f9;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px; 
+}
+.titulo{
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+/* Atributos de seccion con logos de lenguajes*/ 
+.skills{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 8px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.skills:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px white inset;
+}
+
+.logoSkills{
+    width: 100px;
+    height: 100px;
+}
+
+/*Seccion de proyectos*/
+
+.proyectos{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.proyect{
+  height: auto;
+  width: 150px;
+}
+
+.proyect img{
+  width: 120px;
+  height: 120px;
+}
+
+.bloqueAprendizaje{
+    background-color:#f9f9f9;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px; 
+}
+
+#enCurso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contenedorCursos{
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+/*Barras de progreso*/
+.progressBar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.5s ease;
+}
+
+.porcentaje {
+  font-size: 14px;
+  margin-top: 5px;
+}
+/*Footer*/
+
+#pie {
+    margin-top: auto;
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	text-align: center;
+}
+

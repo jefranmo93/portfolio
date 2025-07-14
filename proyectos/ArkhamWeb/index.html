@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ARKHAM TATTOO</title>
+	<link rel="stylesheet" href="CSS/Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="CSS/wickedcss.min.css">
+	
+
+				<!-- FUENTES -->
+	<!--UNCIAL ANTIQUA, FUENTE DEL NOMBRE DEL ESTUDIO -->
+	
+	<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+	<!-- IM Fell DW Pica, FUENTE DEL MENU Y SECCIONES -->
+
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+
+	<!-- CINZEL DECORATIVE, FUENTE DE LOS TEXTOS LARGOS -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+
+	<!-- INTER, FUENTE DE PRODUCTOS, PRECIOS Y FORMULARIO -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+	
+</head>
+<body>
+		<!--	Contenido del encabezado -->
+
+		<!-- Modal de bienvenida-->
+
+		<div id="modalBienvenida">
+			<div id="modaleBoxB">
+				<h1>Bienvenido a Arkham</h1>
+				<button onclick="cerrarMBB()">Empieza</button>
+			</div>
+
+		</div>
+
+
+	<header id="encabezado">
+		<div class="top">
+			<div class="logo">
+				<img src="Media/logoB.png" class="barrelRoll">
+			</div>
+			<div class="tituloEncabezado titulo letraBlanca">ARKHAM TATTOO</div>
+			
+		</div>
+
+		<nav id="navMenu">
+			<ul class="horizontal">
+				<li class="elementoMenu seccion">
+					<a href="#filosofia" class="letraBlanca">Filosofia</a>
+				</li>
+				<li class="elementoMenu seccion">
+					<a href="#equipo" class="letraBlanca">Equipo</a>
+					<ul id="submenu">
+						<li class="elementoSubmenu" id="brahim"><a href="#equipo" data-artista="brahim">Brahim</a></li>
+						<li class="elementoSubmenu" id="samantha"><a href="#equipo" data-artista="samantha">Samantha</a></li>
+						<li class="elementoSubmenu" id="sefi"><a href="#equipo" data-artista="sefi">Sefi</a></li>
+					</ul>
+				</li>
+				<li class="elementoMenu seccion">
+					<a href="#productos" class="letraBlanca">Productos</a>
+				</li>
+				<li class="elementoMenu seccion">
+					<a href="#contacto" class="letraBlanca">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+
+		<h2 id="subtituloEncabezado" class="letraBlanca seccion">Bienvenidos Mortales</h2>
+
+
+		<h2 id="textoEncabezado" class="letraBlanca descripciones">Deja que nuestros tatuadores desciendan a las profundidades de la locura para plasmar tus sueños mas oscuros en la piel.
+		</h2>
+		
+
+
+	</header>
+	<!--	Fin del encabezado -->
+	<main>
+		<!--	Contenido de la seccion Filosofia -->
+		<section id="filosofia" class="section">
+			
+			<h2 class="tituloSeccion seccion">Filosofía</h2>
+			<div id="contenedorFilo">
+
+				<div class="colFilo">
+					<div id="ImagenFilo"></div>
+				</div>
+				<div class="colFilo descripciones">
+					<h3>En nuestro estudio, nuestros profesionales te llevarán en un viaje de transformación física y complacerán a los dioses antiguos. Deleitate con nuestros  diseños capaces de susurrarte secretos mas allá del tiempo y el espacio. Desde símbolos arcanos hasta tatuajes de realismo o surrealismo.</h3>
+				</div>
+				
+
+			</div>
+
+		</section>
+		<!--	Fin de la sección Filosofia -->
+
+		<!--	Comienzo de la seccion equipo -->
+		<section id="equipo">
+			<h2 class="tituloSeccion seccion">Equipo</h2>
+
+			<!--Pestañas de menu de los tatuadores-->
+			<div id="contenedorPestañas">
+				<p class="etiquetaPestañas seccion">BRAHIM</p>
+				<p class="etiquetaPestañas seccion">SAMANTHA</p>
+				<p class="etiquetaPestañas seccion">SEFI</p>	
+			</div>
+			
+			<!-- Aqui es donde tengo el problema-->
+			
+			<!-- contenedor con las imagenes del tatuador
+				y sus nombres-->
+			<div id="contenedorTatuajes">
+
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Tatuador1.jpg">
+					</div>
+					<p class="nombretatuaje">Brahim</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Btatu1.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Btatu2.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Btatu3.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Btatu4.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/Btatu5.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<h3 class="descripciones section">Brahim Jadur Sepúlveda es un tatuador e ilustrador artístico. 
+				Disfruta incorporando elementos de fantasía, surrealismo, arte oscuro, anatomía y arte abstracto. 
+				Prefiere trabajar en blanco y negro, ocasionalmente agregando algo de color.</h3>
+			</div>
+			
+
+
+
+
+
+
+			<div id="contenedorTatuajes2">
+
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/T.jpg">
+					</div>
+					<p class="nombretatuaje">Brahim</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div>
+					<h3 class="descripciones section">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h3>
+				</div>
+				
+			</div>
+
+			<div id="contenedorTatuajes3">
+
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/T.jpg">
+					</div>
+					<p class="nombretatuaje">Brahim</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div class="tatuaje">
+					<div class="imagenTatuaje">
+						<img src="Media/B.jpg">
+					</div>
+					<p class="nombretatuaje">Tatuaje</p>
+				</div>
+				<div>
+					<h3 class="descripciones section">"Contenedor de tatuajes numero 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h3>
+				</div>
+				
+			</div>
+			
+
+
+		</section>
+
+		<!--	Fin de la sección Equipo -->
+
+		<!--	Comienzo de la seccion Productos -->
+
+		<section id="productos">
+			<h2 class="tituloSeccion seccion">Productos</h2>
+
+			<!-- contenedor con las imagenes de los productos
+				sus nombres y precios-->
+			<div id="contenedorProductos">
+
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/CremaP.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/Crema2P.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/FilmP.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/Film2P.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/GreenP.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/Green2P.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/VeganP.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+				<div class="producto">
+					<div class="imagenProducto">
+						<img src="Media/Vegan2P.jpg">
+					</div>
+					<p class="nombreProducto">Nombre del producto</p>
+					<p class="precio">Precio</p>
+				</div>
+			</div>
+
+		</section>
+			
+		<!--	Fin de la sección Productos -->
+
+
+
+		<!--	Comienzo de la seccion Contacto -->
+
+		<section id="contacto">
+
+			<h2 class="tituloSeccion seccion">Pide tu cita</h2>
+			<h3 class="apartadosContacto">Reserva tu cita</h3>
+
+			<!-- Contenedor de los datos personales
+				Texto a la izquierda e inputs a la derecha-->
+			<div id="contenedorFormulario">
+				
+				<div class="textoFormulario">
+					<p class="contenidoFormulario inter">Nombre completo: </p>
+					<p class="contenidoFormulario inter">Email:</p>
+					<p class="contenidoFormulario inter">Número de teléfono: </p>
+				</div>
+				
+				<div class="textoFormulario">
+					<form action="">
+					
+						<input id= "formNombre" type="text" name="nombreCompleto" class="inputPequeño" required>
+						<input id= "email" type="text" name="email" class="inputPequeño" required>
+						<input id="numeroTelefono"type="number" name="numeroTelefono" class="inputPequeño" required>
+
+					</form>
+				</div>
+			</div>
+			<!-- Fin del contenedor de datos personales-->
+			
+
+
+			<!-- Contenedor para hacer consultas
+				texto arriba e input debajo-->
+			<div id="contenedorConsulta">
+				
+				<div class="textoConsulta">
+					<p class="inter">¿Qué podemos hacer por ti?</p>	
+				</div>
+				
+				<div class="contenedorConsulta">
+					<form action="" id="formulario2">
+	    			<textarea id="Consulta" class="inputGrande"></textarea>
+	    			<input id="botonEnviar"	onclick="modalCita()" value="Enviar">
+					</form>
+				</div>
+			</div>
+			<!-- Fin del contenedor Consultas-->
+			<div id="contenedorDireccion">
+				<div>
+				<h2 class="inter">Dirección:      123 Dark Lane Arkham, MA 01234 Estados Unidos</h2>
+				</div>
+			</div>
+		
+			<!--Modal de confirmación de Cita -->
+
+			<div id="modalCita">
+			<div id="modaleBoxC">
+				<h1>Su cita se ha confirmado!</h1>
+				<p id="mensajeCita">Lorem, ipsum dolor, sit amet consectetur adipisicing elit. At, animi?</p>
+				<button onclick="cerrarMC()">Seguir navegando</button>
+			</div>
+
+		</div>
+		</section>
+
+
+		<!-- fin de la sección Contacto -->
+	</main>
+	<footer id="pie">
+		<a href="#"><img src="Media/logoN.png" alt="Logo"></a>
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-twitter"></i>
+	</footer>
+<script>
+	
+	if (!sessionStorage.getItem("bienvenidaMostrada")) {
+		modalBienvenida();
+		sessionStorage.setItem("bienvenidaMostrada", "true");
+	}
+
+
+</script>
+<script src="JS/Scripts.js"></script>
+</body>
+</html>
