@@ -27,7 +27,16 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+/*Fuentes*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
 
+body, p, li, a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
 #encabezado{
   margin-bottom: 80px;
 }
